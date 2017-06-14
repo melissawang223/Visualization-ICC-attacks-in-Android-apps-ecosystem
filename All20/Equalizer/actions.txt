@@ -1,0 +1,9 @@
+<root>
+  <doc>
+    <component>
+      <packagename>music.bassbooster.equalizer</packagename>
+      <conponentname>kx.com.app.equalizer.LauncherActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+  </doc>
+</root>

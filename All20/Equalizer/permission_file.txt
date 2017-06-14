@@ -1,0 +1,1 @@
+{source: "music.bassbooster.equalizer", target: "music.bassbooster.equalizer", per: "1</br>WRITE_EXTERNAL_STORAGE</br>MODIFY_AUDIO_SETTINGS</br>ACCESS_NETWORK_STATE</br>INTERNET</br>READ_EXTERNAL_STORAGE</br>RECORD_AUDIO</br>VIBRATE"},

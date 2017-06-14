@@ -1,0 +1,9 @@
+<root>
+  <doc>
+    <component>
+      <packagename>com.linever.screenshot.android</packagename>
+      <conponentname>com.linever.screenshot.android.MainActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+  </doc>
+</root>

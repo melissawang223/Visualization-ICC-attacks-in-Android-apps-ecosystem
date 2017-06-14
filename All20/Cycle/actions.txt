@@ -1,0 +1,9 @@
+<root>
+  <doc>
+    <component>
+      <packagename>com.maral.cycledroid</packagename>
+      <conponentname>activity.tripslist.TripsListActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+  </doc>
+</root>

@@ -1,0 +1,14 @@
+<root>
+  <doc>
+    <component>
+      <packagename>com.magicfluids.demo</packagename>
+      <conponentname>com.magicfluids.MainActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+    <component>
+      <packagename>com.magicfluids.demo</packagename>
+      <conponentname>com.magicfluids.NewWallpaperService</conponentname>
+      <action>android.service.wallpaper.WallpaperService</action>
+    </component>
+  </doc>
+</root>

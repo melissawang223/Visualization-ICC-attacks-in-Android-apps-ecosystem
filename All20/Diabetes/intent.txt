@@ -1,0 +1,24 @@
+<root>
+  <doc>
+    <intent>
+      <intentname>com.squaremed.diabetesconnect.android</intentname>
+      <sender>com.squaremed.diabetesconnect.android.activities.NeueingabeZugangsdatenActivity</sender>
+      <action>"android.intent.action.MAIN"</action>
+    </intent>
+    <intent>
+      <intentname>com.squaremed.diabetesconnect.android</intentname>
+      <sender>com.squaremed.diabetesconnect.android.activities.NeueingabeZugangsdatenActivity</sender>
+      <action>"android.intent.action.MAIN"</action>
+    </intent>
+    <intent>
+      <intentname>com.squaremed.diabetesconnect.android</intentname>
+      <sender>com.squaremed.diabetesconnect.android.activities.NeueingabeZugangsdatenActivity</sender>
+      <action>"android.intent.action.MAIN"</action>
+    </intent>
+    <intent>
+      <intentname>com.squaremed.diabetesconnect.android</intentname>
+      <sender>com.squaremed.diabetesconnect.android.activities.NeueingabeZugangsdatenActivity</sender>
+      <action>"android.intent.action.MAIN"</action>
+    </intent>
+  </doc>
+</root>

@@ -1,0 +1,9 @@
+<root>
+  <doc>
+    <component>
+      <packagename>tntstudio.supercompass</packagename>
+      <conponentname>tntstudio.supercompass.MainActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+  </doc>
+</root>

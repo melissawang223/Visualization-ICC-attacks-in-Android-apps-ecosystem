@@ -1,0 +1,1 @@
+{source: "tntstudio.supercompass", target: "tntstudio.supercompass", per: "1</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>READ_EXTERNAL_STORAGE"},

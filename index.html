@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+#licensing {
+  fill: green;
+}
+
+.link.licensing {
+  stroke: green;
+}
+
+.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+
+.tooltip{
+  color: red;
+  border:1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+
+var links = [
+{source: "Chrome", target: "Chrome", per: "USE_CREDENTIALS</br>NFC</br>READ_SYNC_STATS</br>RECORD_AUDIO</br>READ_SYNC_SETTINGS</br>WRITE_HISTORY_BOOKMARKS</br>ACCESS_FINE_LOCATION</br>INSTALL_SHORTCUT</br>PRERENDER_URL</br>RECEIVE</br>ACCESS_NETWORK_STATE</br>WRITE_SYNC_SETTINGS</br>WAKE_LOCK</br>READ_HISTORY_BOOKMARKS</br>C2D_MESSAGE</br>WRITE_EXTERNAL_STORAGE</br>MODIFY_AUDIO_SETTINGS</br>GET_ACCOUNTS</br>INTERNET</br>TOS_ACKED</br>CAMERA</br>ACCESS_COARSE_LOCATION</br>READ_GSERVICES</br>READ_WRITE_BOOKMARK_FOLDERS</br>MANAGE_ACCOUNTS</br>VIBRATE"},
+
+{source: "Magic Fluids Free", target: "Magic Fluids Free", per: "WRITE_EXTERNAL_STORAGE</br>BIND_WALLPAPER"},
+
+{source: "BatteryHD", target: "BatteryHD", per: "ACCESS_NETWORK_STATE</br>INTERNET</br>BATTERY_STATS</br>DEVICE_POWER</br>WAKE_LOCK</br>DISABLE_KEYGUARD</br>RECEIVE_BOOT_COMPLETED"},
+
+{source: "BatteryDoctor", target: "BatteryDoctor", per: "WRITE_SETTINGS</br>READ_LOGS</br>SET_WALLPAPER</br>READ_SYNC_SETTINGS</br>INSTALL_SHORTCUT</br>ACCESS_NETWORK_STATE</br>BATTERY_STATS</br>CHANGE_WIFI_STATE</br>WRITE_SYNC_SETTINGS</br>WAKE_LOCK</br>UNINSTALL_SHORTCUT</br>WRITE_EXTERNAL_STORAGE</br>INTERNET</br>SYSTEM_ALERT_WINDOW</br>DISABLE_KEYGUARD</br>RECEIVE_BOOT_COMPLETED</br>BLUETOOTH_ADMIN</br>KILL_BACKGROUND_PROCESSES</br>READ_PHONE_STATE</br>GET_TASKS</br>RESTART_PACKAGES</br>BLUETOOTH</br>CHANGE_NETWORK_STATE</br>VIBRATE</br>ACCESS_WIFI_STATE"},
+
+{source: "AirDroid", target: "AirDroid", per: "WRITE_SETTINGS</br>SET_WALLPAPER</br>FLASHLIGHT</br>INSTALL_SHORTCUT</br>ACCESS_FINE_LOCATION</br>ACCESS_NETWORK_STATE</br>READ_SMS</br>BATTERY_STATS</br>CHANGE_WIFI_STATE</br>SEND_SMS</br>WAKE_LOCK</br>CALL_PHONE</br>WRITE_CONTACTS</br>WRITE_SMS</br>WRITE_EXTERNAL_STORAGE</br>GET_ACCOUNTS</br>INTERNET</br>SYSTEM_ALERT_WINDOW</br>DISABLE_KEYGUARD</br>CAMERA</br>READ_PHONE_STATE</br>GET_TASKS</br>RESTART_PACKAGES</br>READ_CONTACTS</br>RECEIVE_SMS</br>CHANGE_NETWORK_STATE</br>VIBRATE</br>ACCESS_WIFI_STATE"},
+
+{source: "Do Not Cash", target: "Do Not Cash", per: "READ_GSERVICES</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>READ_PHONE_STATE</br>INTERNET</br>ACCESS_COARSE_UPDATES</br>CHANGE_WIFI_STATE</br>READ_EXTERNAL_STORAGE</br>GET_TASKS</br>WAKE_LOCK</br>ACCESS_WIFI_STATE"},
+
+{source: "Compass for Android", target: "Compass for Android", per: "WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>READ_EXTERNAL_STORAGE"},
+
+{source: "CycleDroid", target: "CycleDroid", per: "READ_GSERVICES</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>BILLING</br>INTERNET</br>WAKE_LOCK</br>ACCESS_FINE_LOCATION"},
+
+{source: "Diabetes Connect", target: "Diabetes Connect", per: "WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>BILLING</br>GET_TASKS</br>RECEIVE_BOOT_COMPLETED"},
+
+{source: "Drawing Desk", target: "Drawing Desk", per: "WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>BILLING</br>READ_PHONE_STATE</br>CAMERA</br>ACCESS_WIFI_STATE"},
+
+{source: "Easy Screenshot -no ad capture", target: "Easy Screenshot -no ad capture", per: "WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET"},
+
+{source: "English Offline Dictionary", target: "English Offline Dictionary", per: "ACCESS_NETWORK_STATE</br>INTERNET"},
+
+{source: "Equalizer & Bass Booster", target: "Equalizer & Bass Booster", per: "WRITE_EXTERNAL_STORAGE</br>MODIFY_AUDIO_SETTINGS</br>ACCESS_NETWORK_STATE</br>INTERNET</br>READ_EXTERNAL_STORAGE</br>RECORD_AUDIO</br>VIBRATE"},
+
+{source: "Evernote", target: "Evernote", per: "WRITE_EXTERNAL_STORAGE</br>READ_LOGS</br>BILLING</br>INTERNET</br>GET_ACCOUNTS</br>READ_DATA</br>RECORD_AUDIO</br>ACCESS_FINE_LOCATION</br>INSTALL_SHORTCUT</br>ACCESS_COARSE_LOCATION</br>WRITE_DATA</br>ACCESS_NETWORK_STATE</br>READ_PHONE_STATE</br>WAKE_LOCK</br>READ_CONTACTS</br>VIBRATE</br>ACCESS_WIFI_STATE"},
+
+{source: "Feedly_ Google Reader News RSS", target: "Feedly_ Google Reader News RSS", per: "WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>GET_ACCOUNTS</br>INTERNET</br>USE_CREDENTIALS</br>MANAGE_ACCOUNTS</br>WAKE_LOCK</br>INSTALL_SHORTCUT</br>VIBRATE</br>ACCESS_WIFI_STATE"},
+
+{source: "MX Player", target: "MX Player", per: "KILL_BACKGROUND_PROCESSES</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>SYSTEM_ALERT_WINDOW</br>ACCESS_WIFI_STATE"},
+
+{source: "Photo Editor", target: "Photo Editor", per: "WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>SET_WALLPAPER</br>INTERNET</br>BILLING</br>ACCESS_WIFI_STATE"},
+
+{source: "10 Daily Exercises", target: "10 Daily Exercises", per: "1</br>ACCESS_NETWORK_STATE</br>INTERNET</br>ACCESS_FINE_LOCATION</br>ACCESS_WIFI_STATE"},
+
+{source: "UC Cleaner", target: "UC Cleaner", per: "WRITE_SETTINGS</br>READ_LOGS</br>SYSTEM_OVERLAY_WINDOW</br>RECEIVE_USER_PRESENT</br>INSTALL_SHORTCUT</br>ACCESS_NETWORK_STATE</br>CHANGE_WIFI_STATE</br>READ_SETTINGS</br>WAKE_LOCK</br>UNINSTALL_SHORTCUT</br>CLEAR_APP_CACHE</br>GET_PACKAGE_SIZE</br>WRITE_EXTERNAL_STORAGE</br>INTERNET</br>SYSTEM_ALERT_WINDOW</br>RECEIVE_BOOT_COMPLETED</br>CAMERA</br>ACCESS_SUPERUSER</br>ACCESS_MTK_MMHW</br>KILL_BACKGROUND_PROCESSES</br>READ_PHONE_STATE</br>GET_TASKS</br>RESTART_PACKAGES</br>CHANGE_NETWORK_STATE</br>VIBRATE</br>ACCESS_WIFI_STATE"},
+
+{source: "Wunderlist - To-do & Task List", target: "Wunderlist - To-do & Task List", per: "WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>GET_ACCOUNTS</br>WAKE_LOCK</br>READ_CONTACTS</br>C2D_MESSAGE</br>VIBRATE</br>RECEIVE"},
+
+
+{source: "English Offline Dictionary", target: "livio.pack.lang.en_US.DictionaryView", type:"licensing", act:"component relationshp"},
+
+{source: "Compass for Android", target: "tntstudio.supercompass.MainActivity", type:"licensing", act:"component relationshp"},
+{source: "Easy Screenshot -no ad capture", target: "com.linever.screenshot.android.MainActivity", type:"licensing", act:"component relationshp"},
+{source: "Diabetes Connect", target: "com.squaremed.diabetesconnect.android.activities.NeueingabeZugangsdatenActivity", type:"licensing", act:"component relationshp"},
+{source: "Evernote", target: "com.evernote.ui.NoteViewAloneActivity", type:"licensing", act:"component relationshp"},
+{source: "English Offline Dictionary", target: "livio.pack.lang.en_US.e", type:"licensing", act:"component relationshp"},
+{source: "Evernote", target: "com.evernote.ui.NewNoteActivity", type:"licensing", act:"component relationshp"},
+{source: "Drawing Desk", target: "com.axis.drawingdesk.sketchdesk.managers.ShareManager", type:"licensing", act:"component relationshp"},
+{source: "Drawing Desk", target: "com.evernote.ui.NewNoteActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "Drawing Desk", target: "com.axis.drawingdesk.photodesk.PhotoDeskActivity", type:"licensing", act:"component relationshp"},
+{source: "AirDroid", target: "com.evernote.ui.NewNoteActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "AirDroid", target: "com.sand.airdroid.aw", type:"licensing", act:"component relationshp"},
+{source: "Feedly_ Google Reader News RSS", target: "com.evernote.ui.NewNoteActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "BatteryDoctor", target: "com.evernote.ui.NewNoteActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "AirDroid", target: "com.evernote.ui.NewNoteActivity", act: "Intent</br>Action:</br>android.intent.action.SEND_MULTIPLE"},
+{source: "Compass for Android", target: "tntstudio.supercompass.k", type:"licensing", act:"component relationshp"},
+{source: "Compass for Android", target: "tntstudio.supercompass.AdsActivity", type:"licensing", act:"component relationshp"},
+{source: "AirDroid", target: "com.sand.airdroid.AboutActivity", type:"licensing", act:"component relationshp"},
+{source: "CycleDroid", target: "com.maral.cycledroid.activity.DonateActivity", type:"licensing", act:"component relationshp"},
+{source: "Feedly_ Google Reader News RSS", target: "com.devhd.feedly.command.Application", type:"licensing", act:"component relationshp"},
+{source: "CycleDroid", target: "activity.tripslist.TripsListActivity", type:"licensing", act:"component relationshp"},
+{source: "Diabetes Connect", target: "com.squaremed.diabetesconnect.android.activities.IntroActivity", type:"licensing", act:"component relationshp"},
+{source: "Diabetes Connect", target: "com.squaremed.diabetesconnect.android.activities.ShareActivity", type:"licensing", act:"component relationshp"},
+{source: "Drawing Desk", target: "com.squaremed.diabetesconnect.android.activities.ShareActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "AirDroid", target: "com.squaremed.diabetesconnect.android.activities.ShareActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "Feedly_ Google Reader News RSS", target: "com.squaremed.diabetesconnect.android.activities.ShareActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "BatteryDoctor", target: "com.squaremed.diabetesconnect.android.activities.ShareActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "Equalizer & Bass Booster", target: "kx.com.app.equalizer.LauncherActivity", type:"licensing", act:"component relationshp"},
+{source: "Chrome", target: "com.google.android.apps.chrome.Main", type:"licensing", act:"component relationshp"},
+{source: "Chrome", target: "com.google.android.apps.chrome.ManageBookmarkActivity", type:"licensing", act:"component relationshp"},
+{source: "Photo Editor", target: "app.activity.MainActivity", type:"licensing", act:"component relationshp"},
+{source: "Photo Editor", target: "app.activity.PhotoViewActivity", type:"licensing", act:"component relationshp"},
+{source: "Drawing Desk", target: "app.activity.PhotoViewActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "AirDroid", target: "app.activity.PhotoViewActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "Feedly_ Google Reader News RSS", target: "app.activity.PhotoViewActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "BatteryDoctor", target: "app.activity.PhotoViewActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "AirDroid", target: "app.activity.PhotoViewActivity", act: "Intent</br>Action:</br>android.intent.action.SEND_MULTIPLE"},
+{source: "Photo Editor", target: "app.b.BR", type:"licensing", act:"component relationshp"},
+{source: "Evernote", target: "app.b.BR", act: "Intent</br>Action:</br>com.android.vending.billing.RESPONSE_CODE"},
+{source: "Evernote", target: "app.b.BR", act: "Intent</br>Action:</br>com.android.vending.billing.PURCHASE_STATE_CHANGED"},
+{source: "Wunderlist - To-do & Task List", target: "activity.WLMainFragmentActivity", type:"licensing", act:"component relationshp"},
+{source: "Drawing Desk", target: "activity.WLMainFragmentActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "AirDroid", target: "activity.WLMainFragmentActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "Feedly_ Google Reader News RSS", target: "activity.WLMainFragmentActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "BatteryDoctor", target: "activity.WLMainFragmentActivity", act: "Intent</br>Action:</br>android.intent.action.SEND"},
+{source: "Magic Fluids Free", target: "com.magicfluids.MainActivity", type:"licensing", act:"component relationshp"},
+
+
+
+
+];
+
+var nodes = {};
+
+
+
+
+links.forEach(function(link) {
+  link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, per: link.per, act: link.act});
+  link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+  //link.per = nodes[link.source] || (nodes[link.source] = {per: link.per});
+});
+
+
+
+var width = 1000,
+    height = 1000;
+
+var force = d3.layout.force()
+    .nodes(d3.values(nodes))
+    .links(links)
+    .size([width, height])
+    .linkDistance(120)
+    .charge(-300)
+    .on("tick", tick)
+    //.on("mouseover", function(d){return tooltip.style("visibility", "visible");})
+	//.on("mousemove", function(d){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	//.on("mouseout", function(d){return tooltip.style("visibility", "hidden");})
+    .start();
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+svg.append("defs").selectAll("marker")
+    .data(["suit", "licensing", "resolved"])
+    .enter().append("marker")
+    .attr("id", function(d) { return d; })
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 15)
+    .attr("refY", -1.5)
+    .attr("markerWidth", 6)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto")
+    .append("path")
+    .attr("d", "M0,-5L10,0L0,5");
+
+var path = svg.append("g").selectAll("path")
+    .data(force.links())
+    .enter().append("path")
+    .attr("class", function(d) { return "link " + d.type; })
+    .attr("marker-end", function(d) { return "url(#" + d.type + ")"; })//;
+    .on("mouseover", function(d) {		
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            div	.html( d.act)	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");	
+
+            })					
+        .on("mouseout", function(d) {		
+            div.transition()		
+                .duration(10000)		
+                .style("opacity", 0);	
+        });
+
+
+var tooltip = d3.select("body")
+	.data(force.nodes())
+	.append("div")
+	.style("position", "absolute")
+	.style("z-index", "10")
+	.style("visibility", "hidden")
+	.text("a simple tooltip");
+	//.text();
+	//.text(function(d) { return "SET_WALLPAPER, SET_WALLPAPER_HINTS, READ_SYNC_SETTINGS,SET_WALLPAPER, SET_WALLPAPER_HINTS, READ_SYNC_SETTINGS,SET_WALLPAPER, SET_WALLPAPER_HINTS, READ_SYNC_SETTINGS,SET_WALLPAPER, SET_WALLPAPER_HINTS, READ_SYNC_SETTING" });
+
+	//.text("a simple tooltip");
+
+	// Define the div for the tooltip
+var div = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+
+var circle = svg.append("g").selectAll("circle")
+    .data(force.nodes())
+    .enter().append("circle")
+    .attr("r", 5)
+    .call(force.drag)
+    .on("mouseover", function(d) {		
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            div	.html("Permissions:<br/>"+d.per)	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");	
+
+            })					
+        .on("mouseout", function(d) {		
+            div.transition()		
+                .duration(10000)		
+                .style("opacity", 0);	
+        });
+    //.on("mouseover", function(d){return tooltip.style("visibility", "visible");})
+	//.on("mousemove", function(d){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	//.on("mouseout", function(d){return tooltip.style("visibility", "hidden");})
+    //.on("click", function(d){redrawText();})
+	//.on("mousemove", function(d){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	//.on("mouseout", function(d){return tooltip.style("visibility", "hidden");})
+    //.on("click", function(d){ return d.per;})
+
+
+
+    //.on("mouseover", function(d){return tooltip.style("visibility", "visible");})
+	//.on("mousemove", function(d){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").text(function(d) {return d.per;});})
+	//.on("mouseout", function(d){return tooltip.style("visibility", "hidden");})//;
+    //.on("click", function(d){ return tooltip.style("visibility", "visible");})
+    //.on("click", function(d){ return tooltip.style("visibility", "visible");})
+    //.on("mouseover", function(d){return tooltip.style("visibility", "visible");})
+	//.on("click", function(d){return console.log("<p>London is the capital city of England.<span style='position:absolute;left:0;bottom:18px'>9million</span></p>");})
+	//.on("mouseout", function(d){return tooltip.style("visibility", "hidden");});
+
+    
+
+var text = svg.append("g").selectAll("text")
+    .data(force.nodes())
+    .enter().append("text")
+    .attr("x", 8)
+    .attr("y", ".31em") 
+	.text( function(d) { 
+		return d.name;
+	})
+
+
+var tooltip = d3.select("body")
+	.data(force.nodes())
+	.append("div")
+	.style("position", "absolute")
+	.style("z-index", "10")
+	.style("visibility", "hidden")
+	.text("a simple tooltip");
+
+var text2 = svg.append("g").selectAll("text")
+    .data(force.nodes())
+    .enter().append("text")
+    .attr("x", -50)
+    .attr("y", ".31em") 
+	.text( function(d) { 
+		return d.per;
+	})
+	
+
+
+
+
+	//.on("mouseover", function(d){return tooltip.style("visibility", "visible");})
+	//.on("mousemove", function(d){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	//.on("mouseout", function(d){return tooltip.style("visibility", "hidden");})
+    
+
+ 
+              
+
+
+function tick() {
+  path.attr("d", linkArc);
+  circle.attr("transform", transform);
+  text.attr("transform", transform);
+  div.attr("transform", transform);
+}
+
+function linkArc(d) {
+  var dx = d.target.x - d.source.x,
+      dy = d.target.y - d.source.y,
+      dr = Math.sqrt(dx * dx + dy * dy);
+  return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+}
+
+function transform(d) {
+  return "translate(" + d.x + "," + d.y + ")";
+}
+
+
+
+
+
+</script>

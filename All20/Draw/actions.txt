@@ -1,0 +1,9 @@
+<root>
+  <doc>
+    <component>
+      <packagename>com.axis.drawingdesk.v3</packagename>
+      <conponentname>com.axis.drawingdesk.v3.DrawingDeskMainActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+  </doc>
+</root>

@@ -1,0 +1,1 @@
+{source: "com.mxtech.videoplayer.ad", target: "com.mxtech.videoplayer.ad", per: "1</br>KILL_BACKGROUND_PROCESSES</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>SYSTEM_ALERT_WINDOW</br>ACCESS_WIFI_STATE"},

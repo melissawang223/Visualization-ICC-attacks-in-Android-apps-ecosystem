@@ -1,0 +1,2571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <packageName>com.android.chrome</packageName>
+    <components>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.Main</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>android.intent.action.MEDIA_SEARCH</actions>
+                    <actions>android.speech.action.VOICE_SEARCH_RESULTS</actions>
+                    <actions>android.nfc.action.NDEF_DISCOVERED</actions>
+                    <actions>android.intent.action.SEARCH</actions>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>googlechrome</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>about</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>javascript</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/html</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>text/plain</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme></scheme>
+                        <mimeType>application/xhtml+xml</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>file</scheme>
+                        <mimeType>multipart/related</mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>http</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <data>
+                        <scheme>https</scheme>
+                        <mimeType></mimeType>
+                        <host></host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.APP_BROWSER</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)&gt;($i0, $r1) </sink>
+                    <sinkCalledAt>android.support.v4.app.h: boolean onKeyDown(int,android.view.KeyEvent)</sinkCalledAt>
+                    <source> staticinvoke &lt;java.util.Locale: java.util.Locale getDefault()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: void &lt;init&gt;()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)&gt;($i0, $r1) </sink>
+                    <sinkCalledAt>android.support.v4.app.h: boolean onKeyDown(int,android.view.KeyEvent)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(0) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r21.&lt;android.view.View: android.view.View getRootView()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean onOptionsItemSelected(int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(0) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(0) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r21.&lt;android.view.View: android.view.View getRootView()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean onOptionsItemSelected(int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(0) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.io.PrintWriter: void println(java.lang.Object)&gt;($r10) </sink>
+                    <sinkCalledAt>android.support.v4.app.p: void a(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])</sinkCalledAt>
+                    <source> staticinvoke &lt;java.util.Locale: java.util.Locale getDefault()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: void &lt;init&gt;()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.io.PrintWriter: void println(java.lang.Object)&gt;($r10) </sink>
+                    <sinkCalledAt>android.support.v4.app.p: void a(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)&gt;("LoaderManager", $r1, $r3) </sink>
+                    <sinkCalledAt>android.support.v4.app.z: void b()</sinkCalledAt>
+                    <source> staticinvoke &lt;java.util.Locale: java.util.Locale getDefault()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: void &lt;init&gt;()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)&gt;("LoaderManager", $r1, $r3) </sink>
+                    <sinkCalledAt>android.support.v4.app.z: void b()</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 204 </sink>
+                    <sinkCalledAt>android.support.v4.app.h: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> staticinvoke &lt;java.util.Locale: java.util.Locale getDefault()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: void &lt;init&gt;()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 204 </sink>
+                    <sinkCalledAt>android.support.v4.app.h: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.AlarmManager: void set(int,long,android.app.PendingIntent)&gt;(1, $l2, $r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.Main: void setAlarmToRelaunchChrome()</sinkCalledAt>
+                    <source> staticinvoke &lt;android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)&gt;($r0, 0, $r1, 1073741824) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: void setAlarmToRelaunchChrome()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.AlertDialog: void setView(android.view.View)&gt;($r5) on line 165 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.webapps.WebappManager: void showDialog(android.app.Activity,com.google.android.apps.chrome.Tab)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(1) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r21.&lt;android.view.View: android.view.View getRootView()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean onOptionsItemSelected(int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(1) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(0) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r21.&lt;android.view.View: android.view.View getRootView()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean onOptionsItemSelected(int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setDrawingCacheEnabled(boolean)&gt;(0) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setWillNotDraw(boolean)&gt;($z1) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: void prepareViewHierarchyForScreenshot(android.view.View,boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r21.&lt;android.view.View: android.view.View getRootView()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean onOptionsItemSelected(int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void setWillNotDraw(boolean)&gt;($z1) </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: void prepareViewHierarchyForScreenshot(android.view.View,boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String)&gt;("FragmentManager", $r17) </sink>
+                    <sinkCalledAt>android.support.v4.app.p: void a(android.os.Parcelable,java.util.ArrayList)</sinkCalledAt>
+                    <source> staticinvoke &lt;java.util.Locale: java.util.Locale getDefault()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: void &lt;init&gt;()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String)&gt;("FragmentManager", $r17) </sink>
+                    <sinkCalledAt>android.support.v4.app.p: void a(android.os.Parcelable,java.util.ArrayList)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.AlertDialog: void setButton(int,java.lang.CharSequence,android.content.DialogInterface$OnClickListener)&gt;(-1, $r4, $r14) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.webapps.WebappManager: void showDialog(android.app.Activity,com.google.android.apps.chrome.Tab)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void draw(android.graphics.Canvas)&gt;($r7) on line 160 </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r21.&lt;android.view.View: android.view.View getRootView()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean onOptionsItemSelected(int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.view.View: void draw(android.graphics.Canvas)&gt;($r7) on line 160 </sink>
+                    <sinkCalledAt>org.chromium.ui.UiUtils: android.graphics.Bitmap generateScaledScreenshot(android.view.View,int,android.graphics.Bitmap$Config)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent createChooser(android.content.Intent,java.lang.CharSequence)&gt;($r4, $r5) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.Main: void shareUrl(java.lang.String,java.lang.String,android.graphics.Bitmap)</sinkCalledAt>
+                    <source> staticinvoke &lt;java.util.Locale: java.util.Locale getDefault()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: void &lt;init&gt;()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent createChooser(android.content.Intent,java.lang.CharSequence)&gt;($r4, $r5) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.Main: void shareUrl(java.lang.String,java.lang.String,android.graphics.Bitmap)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.EditText: void setSelection(int,int)&gt;(0, $i0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.webapps.WebappManager: void showDialog(android.app.Activity,com.google.android.apps.chrome.Tab)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.TextView: void setText(int)&gt;($i0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.webapps.WebappManager: void showDialog(android.app.Activity,com.google.android.apps.chrome.Tab)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.TextView: void setText(int)&gt;($i0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.webapps.WebappManager: void showDialog(android.app.Activity,com.google.android.apps.chrome.Tab)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.PopupMenu: android.view.Menu getMenu()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.Main: boolean showAppMenu(android.view.View,boolean,boolean)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.sync.ui.PassphraseActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.ManageBookmarkActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>com.android.chrome.ADDBOOKMARK</actions>
+                    <data>
+                        <scheme>chrome</scheme>
+                        <mimeType></mimeType>
+                        <host>editbookmark</host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+                <filter>
+                    <actions>android.intent.action.VIEW</actions>
+                    <actions>com.android.chrome.ADDBOOKMARK</actions>
+                    <data>
+                        <scheme>chrome</scheme>
+                        <mimeType></mimeType>
+                        <host>editbookmark</host>
+                        <pathPattern></pathPattern>
+                    </data>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <categories>android.intent.category.BROWSABLE</categories>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newEditInstance(boolean,long)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.ManageBookmarkActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newEditInstance(boolean,long)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.net.Uri: java.lang.String getQueryParameter(java.lang.String)&gt;("id") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NETWORK_INFORMATION</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newEditInstance(boolean,long)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.net.Uri getData()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newEditInstance(boolean,long)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("url", $r2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.ManageBookmarkActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("url", $r2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r8.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("url") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("url", $r2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("name", $r1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r8.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("title") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("name", $r1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.ManageBookmarkActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("name", $r1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.ManageBookmarkActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r8.&lt;android.os.Bundle: long getLong(java.lang.String)&gt;("_id") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.net.Uri: java.lang.String getQueryParameter(java.lang.String)&gt;("id") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NETWORK_INFORMATION</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.net.Uri getData()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putLong(java.lang.String,long)&gt;("id", $l2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.AddEditBookmarkFragment: com.google.android.apps.chrome.AddEditBookmarkFragment newInstance(boolean,java.lang.Long,java.lang.String,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: com.google.android.apps.chrome.AddEditBookmarkFragment generateBaseFragment()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.nfc.NfcAdapter: void setNdefPushMessage(android.nfc.NdefMessage,android.app.Activity,android.app.Activity[])&gt;(null, $r0, $r11) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.nfc.NfcAdapter: android.nfc.NfcAdapter getDefaultAdapter(android.content.Context)&gt;($r0) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ManageBookmarkActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NFC</sinkDomain>
+                    <sourceDomain>NFC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void setResult(int,android.content.Intent)&gt;(-1, $r1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void finishFirstRunExperience(boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void setContentView(int)&gt;($i0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void setupLayout()</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.io.PrintWriter: void println(java.lang.Object)&gt;($r10) </sink>
+                    <sinkCalledAt>android.support.v4.app.p: void a(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityPhone: void setRequestedOrientation(int)&gt;(1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityPhone: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 204 </sink>
+                    <sinkCalledAt>android.support.v4.app.h: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String)&gt;("FragmentManager", $r17) </sink>
+                    <sinkCalledAt>android.support.v4.app.p: void a(android.os.Parcelable,java.util.ArrayList)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void setResult(int,android.content.Intent)&gt;($i2, $r1) on line 302 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void finishFirstRunExperience(boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityTablet: void setContentView(int)&gt;($i0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityTablet: void setupLayout()</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityPhone</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityTablet</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.preferences.PreferenceHeaders</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.nfc.NfcAdapter: void setNdefPushMessage(android.nfc.NdefMessage,android.app.Activity,android.app.Activity[])&gt;(null, $r0, $r6) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.preferences.PreferenceHeaders: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.nfc.NfcAdapter: android.nfc.NfcAdapter getDefaultAdapter(android.content.Context)&gt;($r0) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.preferences.PreferenceHeaders: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NFC</sinkDomain>
+                    <sourceDomain>NFC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.EmbedContentViewActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 62 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("title") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 62 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 62 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 62 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("url") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)&gt;(17039370, $r0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void showErrorAndFinish(java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("title") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)&gt;(17039370, $r0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void showErrorAndFinish(java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)&gt;(17039370, $r0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void showErrorAndFinish(java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)&gt;(17039370, $r0) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void showErrorAndFinish(java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("url") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.compositor.CompositorView: void setVisibility(int)&gt;(4) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.compositor.CompositorView: void &lt;init&gt;(android.content.Context,com.google.android.apps.chrome.tabs.layout.LayoutRenderHost)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.compositor.CompositorView: void setVisibility(int)&gt;(4) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.compositor.CompositorView: void &lt;init&gt;(android.content.Context,com.google.android.apps.chrome.tabs.layout.LayoutRenderHost)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)&gt;($r2, $r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.GpuProfiler: void registerReceiver(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)&gt;($r2, $r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.GpuProfiler: void registerReceiver(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)&gt;($r2, $r3) </sink>
+                    <sinkCalledAt>org.chromium.content.browser.HeapStatsLogger: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)&gt;($r2, $r3) </sink>
+                    <sinkCalledAt>org.chromium.content.browser.HeapStatsLogger: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.EmbedContentViewActivity: void setContentView(android.view.View,android.view.ViewGroup$LayoutParams)&gt;($r12, $r13) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.EmbedContentViewActivity: void setContentView(android.view.View,android.view.ViewGroup$LayoutParams)&gt;($r12, $r13) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void addAction(java.lang.String)&gt;($r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void addAction(java.lang.String)&gt;($r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;org.chromium.content.browser.ContentViewRenderView: void setBackgroundColor(int)&gt;(-1) on line 60 </sink>
+                    <sinkCalledAt>org.chromium.content.browser.ContentViewRenderView: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;org.chromium.content.browser.ContentViewRenderView: void setBackgroundColor(int)&gt;(-1) on line 60 </sink>
+                    <sinkCalledAt>org.chromium.content.browser.ContentViewRenderView: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.compositor.CompositorView: void setZOrderMediaOverlay(boolean)&gt;(1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.compositor.CompositorView: void &lt;init&gt;(android.content.Context,com.google.android.apps.chrome.tabs.layout.LayoutRenderHost)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.compositor.CompositorView: void setZOrderMediaOverlay(boolean)&gt;(1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.compositor.CompositorView: void &lt;init&gt;(android.content.Context,com.google.android.apps.chrome.tabs.layout.LayoutRenderHost)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void addAction(java.lang.String)&gt;($r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void addAction(java.lang.String)&gt;($r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.GpuProfiler$ProfilerIntentFilter: void &lt;init&gt;(android.content.Context)</sinkCalledAt>
+                    <source> virtualinvoke $r0.&lt;com.google.android.apps.chrome.EmbedContentViewActivity: android.content.Intent getIntent()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.EmbedContentViewActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 53 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.EditText: android.text.Editable getText()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onClick(android.view.View)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("url_to_preprender", $r1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void prerenderUrl(java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.EditText: android.text.Editable getText()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onClick(android.view.View)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent setClassName(java.lang.String,java.lang.String)&gt;($r2, $r8) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r3.&lt;java.lang.Class: java.lang.String getName()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onCreate(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent setClassName(java.lang.String,java.lang.String)&gt;($r6, $r9) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onClick(android.view.View)</sinkCalledAt>
+                    <source> virtualinvoke $r4.&lt;android.widget.EditText: android.text.Editable getText()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onClick(android.view.View)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent setClassName(java.lang.String,java.lang.String)&gt;($r6, $r9) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onClick(android.view.View)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;java.lang.Class: java.lang.String getName()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.prerender.PrerenderAPITestActivity: void onClick(android.view.View)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.fullscreenmedia.FullScreenMediaActivity</name>
+            <RequiredPermissions>
+                <PRM>INTERNET</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>activity</type>
+            <name>com.google.android.apps.chrome.ShortcutActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.CREATE_SHORTCUT</actions>
+                    <categories>android.intent.category.DEFAULT</categories>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.sync.ChromeBrowserSyncAdapterService</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.content.SyncAdapter</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService</name>
+            <RequiredPermissions>
+                <PRM>BIND_REMOTEVIEWS</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void notifyAppWidgetViewDataChanged(int,int)&gt;($i2, $i4) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService: void changeFolder(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;("appWidgetId", -1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService: void changeFolder(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void notifyAppWidgetViewDataChanged(int,int)&gt;($i2, $i4) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService: void changeFolder(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)&gt;($r0) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService: void changeFolder(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)&gt;("current_folder", $l3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService: void changeFolder(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: long getLongExtra(java.lang.String,long)&gt;("_id", -1L) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService: void changeFolder(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>DATABASE_INFORMATION</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.sync.notifier.InvalidationService</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>com.google.ipc.invalidation.AUTH_TOKEN_REQUEST</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;("sync_acct_name", $r5) </sink>
+                    <sinkCalledAt>org.chromium.sync.notifier.InvalidationPreferences: void setAccount(org.chromium.sync.notifier.InvalidationPreferences$EditContext,android.accounts.Account)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)&gt;("account") </source>
+                    <sourceCalledAt>org.chromium.sync.notifier.InvalidationService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>DATABASE_INFORMATION</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;("sync_acct_type", $r4) </sink>
+                    <sinkCalledAt>org.chromium.sync.notifier.InvalidationPreferences: void setAccount(org.chromium.sync.notifier.InvalidationPreferences$EditContext,android.accounts.Account)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)&gt;("account") </source>
+                    <sourceCalledAt>org.chromium.sync.notifier.InvalidationService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>DATABASE_INFORMATION</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.ipc.invalidation.ticl.android2.TiclService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_IS_RETRY", $z0) </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: byte[] getByteArrayExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_MSG") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_PENDING_INTENT", $r6) </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)&gt;($r0, $i0, $r4, 1073741824) </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.lang.String: boolean startsWith(java.lang.String)&gt;("oauth2:") </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String,java.lang.String,boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_TYPE") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.io.OutputStream: void write(byte[])&gt;($r1) </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String,java.lang.String,boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: byte[] getByteArrayExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_MSG") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.net.HttpURLConnection: void setRequestMethod(java.lang.String)&gt;("POST") </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: java.net.HttpURLConnection a(android.content.Context,java.net.URL,java.lang.String,boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_TYPE") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;("com.google.ipc.invalidaton.AUTH_TOKEN_INVALIDATE", $r2) </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)&gt;($r0, $i0, $r4, 1073741824) </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;("com.google.ipc.invalidaton.AUTH_TOKEN_INVALIDATE", $r2) </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: android.content.ComponentName startService(android.content.Intent)&gt;($r4) on line 179 </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)&gt;($r0, $i0, $r4, 1073741824) </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: android.content.ComponentName startService(android.content.Intent)&gt;($r4) on line 179 </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>UNDEFINED</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.net.URL: java.net.URLConnection openConnection()&gt;() on line 334 </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: java.net.HttpURLConnection a(android.content.Context,java.net.URL,java.lang.String,boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_TYPE") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NETWORK</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,byte[])&gt;("com.google.ipc.invalidation.AUTH_TOKEN_MSG", $r1) </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: byte[] getByteArrayExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_MSG") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.net.URL: void &lt;init&gt;(java.lang.String)&gt;($r10) </sink>
+                    <sinkCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void a(byte[],java.lang.String,java.lang.String,boolean)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("com.google.ipc.invalidation.AUTH_TOKEN_TYPE") </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NETWORK</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.snapshot.SnapshotArchiveManager</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.ChromeBrowserPrerenderService</name>
+            <RequiredPermissions>
+                <PRM>PRERENDER_URL</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.snapshot.cloudprint.CloudPrintService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.crash.MinidumpUploadService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.util.Log: int d(java.lang.String,java.lang.String)&gt;("MinidumpUploadService", $r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.crash.MinidumpUploadService: void handleUploadCrash(android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;("tries", -1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.crash.MinidumpUploadService: void handleUploadCrash(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int d(java.lang.String,java.lang.String)&gt;("MinidumpUploadService", $r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.crash.MinidumpUploadService: void handleUploadCrash(android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("minidump_file") </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.crash.MinidumpUploadService: void handleUploadCrash(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String)&gt;("MinidumpUploadService", $r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.crash.MinidumpUploadService: void onHandleIntent(android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getAction()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.crash.MinidumpUploadService: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.omaha.OmahaClient</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)&gt;(1, $l1, 18000000L, $r2) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.omaha.OmahaClient: void setAlarm(android.app.AlarmManager,android.app.PendingIntent,int,long)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)&gt;($r1, $i0, $r2, i2) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.omaha.OmahaClient: void scheduleRepeatingAlarm()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;("OmahaClient", $r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.omaha.OmahaClient: void onHandleIntent(android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getAction()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.omaha.OmahaClient: void onHandleIntent(android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.snapshot.gcm.GcmReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService0</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService1</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService2</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService3</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService4</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService5</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService6</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService7</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService8</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService9</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService10</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService11</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.SandboxedProcessService12</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.PrivilegedProcessService0</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.PrivilegedProcessService1</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>org.chromium.content.app.PrivilegedProcessService2</name>
+            <RequiredPermissions>
+                <PRM>CHILD_SERVICE</PRM>
+            </RequiredPermissions>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;java.lang.String: boolean startsWith(java.lang.String)&gt;($r3) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService: int onStartCommand(android.content.Intent,int,int)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: java.lang.String getAction()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService: int onStartCommand(android.content.Intent,int,int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.google.android.apps.chrome.MediaCaptureNotificationService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.app.NotificationManager: void notify(int,android.app.Notification)&gt;($i0, $r11) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.MediaCaptureNotificationService: void createNotification(int,int,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;("NotificationId", -1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.MediaCaptureNotificationService: int onStartCommand(android.content.Intent,int,int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.NotificationManager: void notify(int,android.app.Notification)&gt;($i0, $r11) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.MediaCaptureNotificationService: void createNotification(int,int,java.lang.String)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.util.SparseIntArray: int get(int)&gt;($i0) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.MediaCaptureNotificationService: boolean doesNotificationNeedUpdate(int,int)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.android.apps.chrome.services.AccountsChangedReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.accounts.LOGIN_ACCOUNTS_CHANGED</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.android.apps.chrome.ToSAckedReceiver</name>
+            <RequiredPermissions>
+                <PRM>TOS_ACKED</PRM>
+            </RequiredPermissions>
+            <IntentFilter>
+                <filter>
+                    <actions>com.android.chrome.TOS_ACKED</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;java.util.HashSet: boolean add(java.lang.Object)&gt;($r4) on line 36 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.ToSAckedReceiver: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r3.&lt;android.os.Bundle: java.lang.String getString(java.lang.String,java.lang.String)&gt;("TosAckedReceiver.account", null) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ToSAckedReceiver: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.util.HashSet: boolean add(java.lang.Object)&gt;($r4) on line 36 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.ToSAckedReceiver: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;() </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ToSAckedReceiver: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.util.HashSet: boolean add(java.lang.Object)&gt;($r4) on line 36 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.ToSAckedReceiver: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;($r1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.ToSAckedReceiver: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.appwidget.action.APPWIDGET_UPDATE</actions>
+                    <actions>.BOOKMARK_APPWIDGET_UPDATE</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void notifyAppWidgetViewDataChanged(int,int)&gt;($i5, $i1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> virtualinvoke $r5.&lt;android.appwidget.AppWidgetManager: int[] getAppWidgetIds(android.content.ComponentName)&gt;($r7) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void notifyAppWidgetViewDataChanged(int,int)&gt;($i5, $i1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> staticinvoke &lt;android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)&gt;($r1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void notifyAppWidgetViewDataChanged(int,int)&gt;($i5, $i1) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;("appWidgetId", -1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.RemoteViews: void setRemoteAdapter(int,android.content.Intent)&gt;($i1, $r4) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> virtualinvoke $r5.&lt;android.appwidget.AppWidgetManager: int[] getAppWidgetIds(android.content.ComponentName)&gt;($r7) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.RemoteViews: void setRemoteAdapter(int,android.content.Intent)&gt;($i1, $r4) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> staticinvoke &lt;android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)&gt;($r1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.RemoteViews: void setRemoteAdapter(int,android.content.Intent)&gt;($i1, $r4) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;("appWidgetId", -1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)&gt;($i5, $r9) on line 110 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> virtualinvoke $r5.&lt;android.appwidget.AppWidgetManager: int[] getAppWidgetIds(android.content.ComponentName)&gt;($r7) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)&gt;($i5, $r9) on line 110 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> staticinvoke &lt;android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)&gt;($r1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)&gt;($i5, $r9) on line 110 </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;("appWidgetId", -1) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.RemoteViews: void setPendingIntentTemplate(int,android.app.PendingIntent)&gt;($i1, $r10) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> staticinvoke &lt;android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)&gt;($r1, 0, $r4, 134217728) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.widget.RemoteViews: void setOnClickPendingIntent(int,android.app.PendingIntent)&gt;($i1, $r7) </sink>
+                    <sinkCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sinkCalledAt>
+                    <source> staticinvoke &lt;android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)&gt;($r1, 0, $r4, 134217728) </source>
+                    <sourceCalledAt>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider: void performUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.android.apps.chrome.appwidget.bookmarks.BookmarkWidgetProxy</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener$GCMReceiver</name>
+            <RequiredPermissions>
+                <PRM>SEND</PRM>
+            </RequiredPermissions>
+            <IntentFilter>
+                <filter>
+                    <actions>com.google.android.c2dm.intent.RECEIVE</actions>
+                    <actions>com.google.android.c2dm.intent.REGISTRATION</actions>
+                    <categories>com.android.chrome</categories>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;("GCMBroadcastReceiver", $r5) </sink>
+                    <sinkCalledAt>com.google.android.b.b: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> virtualinvoke $r2.&lt;java.lang.Class: java.lang.String getName()&gt;() </source>
+                    <sourceCalledAt>com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener$GCMReceiver: java.lang.String getGCMIntentServiceClassName(android.content.Context)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.ipc.invalidation.ticl.android2.AndroidInternalScheduler$AlarmReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.ipc.invalidation.external.client2.contrib.AndroidListener$AlarmReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService$Receiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>com.google.ipc.invalidation.gcmmplex.EVENT</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.android.apps.chrome.snapshot.SnapshotDownloadReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.DOWNLOAD_COMPLETE</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.android.apps.chrome.snapshot.gcm.GcmReceiver$Receiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>com.google.ipc.invalidation.gcmmplex.EVENT</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.google.android.apps.chrome.OpenDownloadReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>org.chromium.base.PowerStatusReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.ACTION_POWER_CONNECTED</actions>
+                    <actions>android.intent.action.ACTION_POWER_DISCONNECTED</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.no.real.class.needed.receiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>provider</type>
+            <name>com.google.android.apps.chrome.snapshot.SnapshotProvider</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>provider</type>
+            <name>com.google.android.apps.chrome.ChromeBrowserProvider</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>provider</type>
+            <name>com.google.android.apps.chrome.icing.IcingProvider</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>provider</type>
+            <name>com.google.android.apps.chrome.AutofillDataProvider</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+    </components>
+    <newIntents/>
+    <ContentProviders/>
+    <usesPermissions>
+        <permission>USE_CREDENTIALS</permission>
+        <permission>NFC</permission>
+        <permission>READ_SYNC_STATS</permission>
+        <permission>RECORD_AUDIO</permission>
+        <permission>READ_SYNC_SETTINGS</permission>
+        <permission>WRITE_HISTORY_BOOKMARKS</permission>
+        <permission>ACCESS_FINE_LOCATION</permission>
+        <permission>INSTALL_SHORTCUT</permission>
+        <permission>PRERENDER_URL</permission>
+        <permission>RECEIVE</permission>
+        <permission>ACCESS_NETWORK_STATE</permission>
+        <permission>WRITE_SYNC_SETTINGS</permission>
+        <permission>WAKE_LOCK</permission>
+        <permission>READ_HISTORY_BOOKMARKS</permission>
+        <permission>C2D_MESSAGE</permission>
+        <permission>WRITE_EXTERNAL_STORAGE</permission>
+        <permission>MODIFY_AUDIO_SETTINGS</permission>
+        <permission>GET_ACCOUNTS</permission>
+        <permission>INTERNET</permission>
+        <permission>TOS_ACKED</permission>
+        <permission>CAMERA</permission>
+        <permission>ACCESS_COARSE_LOCATION</permission>
+        <permission>READ_GSERVICES</permission>
+        <permission>READ_WRITE_BOOKMARK_FOLDERS</permission>
+        <permission>MANAGE_ACCOUNTS</permission>
+        <permission>VIBRATE</permission>
+    </usesPermissions>
+    <actuallyUsesPermissions/>
+    <requiredPermissions/>
+    <apkFile>../../../app_repo/bundle/Chrome.apk</apkFile>
+    <name>Chrome</name>
+</application>

@@ -1,0 +1,1 @@
+{source: "com.playsimple.fitnessapp", target: "com.playsimple.fitnessapp", per: "1</br>ACCESS_NETWORK_STATE</br>INTERNET</br>ACCESS_FINE_LOCATION</br>ACCESS_WIFI_STATE"},

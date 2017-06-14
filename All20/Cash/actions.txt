@@ -1,0 +1,29 @@
+<root>
+  <doc>
+    <component>
+      <packagename>com.umoni.nocrash</packagename>
+      <conponentname>com.umoni.nocrash.AppActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+    <component>
+      <packagename>com.umoni.nocrash</packagename>
+      <conponentname>com.umeng.message.RegistrationReceiver</conponentname>
+      <action>android.net.conn.CONNECTIVITY_CHANGE</action>
+    </component>
+    <component>
+      <packagename>com.umoni.nocrash</packagename>
+      <conponentname>com.umeng.message.RegistrationReceiver</conponentname>
+      <action>android.intent.action.PACKAGE_REMOVED</action>
+    </component>
+    <component>
+      <packagename>com.umoni.nocrash</packagename>
+      <conponentname>com.umeng.message.RegistrationReceiver</conponentname>
+      <action>android.net.conn.CONNECTIVITY_CHANGE</action>
+    </component>
+    <component>
+      <packagename>com.umoni.nocrash</packagename>
+      <conponentname>com.umeng.message.RegistrationReceiver</conponentname>
+      <action>android.intent.action.PACKAGE_REMOVED</action>
+    </component>
+  </doc>
+</root>

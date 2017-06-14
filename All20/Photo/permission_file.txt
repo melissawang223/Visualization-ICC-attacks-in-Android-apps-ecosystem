@@ -1,0 +1,1 @@
+{source: "com.iudesk.android.photo.editor", target: "com.iudesk.android.photo.editor", per: "1</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>SET_WALLPAPER</br>INTERNET</br>BILLING</br>ACCESS_WIFI_STATE"},

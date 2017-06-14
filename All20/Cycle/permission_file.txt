@@ -1,0 +1,1 @@
+{source: "com.maral.cycledroid", target: "com.maral.cycledroid", per: "1</br>READ_GSERVICES</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>BILLING</br>INTERNET</br>WAKE_LOCK</br>ACCESS_FINE_LOCATION"},

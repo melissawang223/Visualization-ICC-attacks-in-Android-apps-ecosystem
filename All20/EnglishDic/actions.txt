@@ -1,0 +1,29 @@
+<root>
+  <doc>
+    <component>
+      <packagename>livio.pack.lang.en_US</packagename>
+      <conponentname>livio.pack.lang.en_US.DictionaryView</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+    <component>
+      <packagename>livio.pack.lang.en_US</packagename>
+      <conponentname>livio.pack.lang.en_US.DictionarySearch</conponentname>
+      <action>android.intent.action.SEARCH</action>
+    </component>
+    <component>
+      <packagename>livio.pack.lang.en_US</packagename>
+      <conponentname>livio.pack.lang.en_US.DictionarySearch</conponentname>
+      <action>android.intent.action.SEARCH</action>
+    </component>
+    <component>
+      <packagename>livio.pack.lang.en_US</packagename>
+      <conponentname>livio.pack.lang.en_US.BasicWidget</conponentname>
+      <action>android.appwidget.action.APPWIDGET_UPDATE</action>
+    </component>
+    <component>
+      <packagename>livio.pack.lang.en_US</packagename>
+      <conponentname>livio.pack.lang.en_US.BasicWidgetXL</conponentname>
+      <action>android.appwidget.action.APPWIDGET_UPDATE</action>
+    </component>
+  </doc>
+</root>

@@ -1,0 +1,1 @@
+{source: "livio.pack.lang.en_US", target: "livio.pack.lang.en_US", per: "1</br>ACCESS_NETWORK_STATE</br>INTERNET"},

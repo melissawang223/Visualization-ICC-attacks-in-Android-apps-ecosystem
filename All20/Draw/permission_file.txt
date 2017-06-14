@@ -1,0 +1,1 @@
+{source: "com.axis.drawingdesk.v3", target: "com.axis.drawingdesk.v3", per: "1</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>BILLING</br>READ_PHONE_STATE</br>CAMERA</br>ACCESS_WIFI_STATE"},

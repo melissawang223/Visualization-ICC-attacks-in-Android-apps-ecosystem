@@ -1,0 +1,1 @@
+{source: "com.squaremed.diabetesconnect.android", target: "com.squaremed.diabetesconnect.android", per: "1</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>BILLING</br>GET_TASKS</br>RECEIVE_BOOT_COMPLETED"},

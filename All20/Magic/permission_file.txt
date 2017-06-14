@@ -1,0 +1,1 @@
+{source: "com.magicfluids.demo", target: "com.magicfluids.demo", per: "1</br>WRITE_EXTERNAL_STORAGE</br>BIND_WALLPAPER"},

@@ -1,0 +1,9 @@
+<root>
+  <doc>
+    <component>
+      <packagename>com.playsimple.fitnessapp</packagename>
+      <conponentname>com.playsimple.fitnessapp.MainActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+  </doc>
+</root>

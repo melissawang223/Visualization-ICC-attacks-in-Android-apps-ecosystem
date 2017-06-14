@@ -1,0 +1,1 @@
+{source: "com.devhd.feedly", target: "com.devhd.feedly", per: "1</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>GET_ACCOUNTS</br>INTERNET</br>USE_CREDENTIALS</br>MANAGE_ACCOUNTS</br>WAKE_LOCK</br>INSTALL_SHORTCUT</br>VIBRATE</br>ACCESS_WIFI_STATE"},

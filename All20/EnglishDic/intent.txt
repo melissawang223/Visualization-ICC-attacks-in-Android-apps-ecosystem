@@ -1,0 +1,24 @@
+<root>
+  <doc>
+    <intent>
+      <intentname>livio.pack.lang.en_US</intentname>
+      <sender>livio.pack.lang.en_US.e</sender>
+      <action>"android.intent.action.VIEW"</action>
+    </intent>
+    <intent>
+      <intentname>livio.pack.lang.en_US</intentname>
+      <sender>livio.pack.lang.en_US.e</sender>
+      <action>"android.intent.action.VIEW"</action>
+    </intent>
+    <intent>
+      <intentname>livio.pack.lang.en_US</intentname>
+      <sender>livio.pack.lang.en_US.e</sender>
+      <action>"android.intent.action.VIEW"</action>
+    </intent>
+    <intent>
+      <intentname>livio.pack.lang.en_US</intentname>
+      <sender>livio.pack.lang.en_US.e</sender>
+      <action>"android.intent.action.VIEW"</action>
+    </intent>
+  </doc>
+</root>

@@ -1,0 +1,1 @@
+{source: "ch.smalltech.battery.free", target: "ch.smalltech.battery.free", per: "1</br>ACCESS_NETWORK_STATE</br>INTERNET</br>BATTERY_STATS</br>DEVICE_POWER</br>WAKE_LOCK</br>DISABLE_KEYGUARD</br>RECEIVE_BOOT_COMPLETED"},

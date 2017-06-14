@@ -1,0 +1,34 @@
+<root>
+  <doc>
+    <component>
+      <packagename>com.squaremed.diabetesconnect.android</packagename>
+      <conponentname>com.squaremed.diabetesconnect.android.activities.IntroActivity</conponentname>
+      <action>android.intent.action.MAIN</action>
+    </component>
+    <component>
+      <packagename>com.squaremed.diabetesconnect.android</packagename>
+      <conponentname>com.squaremed.diabetesconnect.android.activities.ShareActivity</conponentname>
+      <action>android.intent.action.SEND</action>
+    </component>
+    <component>
+      <packagename>com.squaremed.diabetesconnect.android</packagename>
+      <conponentname>com.squaremed.diabetesconnect.android.receiver.ConfigChangedReceiver</conponentname>
+      <action>android.intent.action.LOCALE_CHANGED</action>
+    </component>
+    <component>
+      <packagename>com.squaremed.diabetesconnect.android</packagename>
+      <conponentname>com.squaremed.diabetesconnect.android.receiver.ConfigChangedReceiver</conponentname>
+      <action>android.intent.action.TIME_SET</action>
+    </component>
+    <component>
+      <packagename>com.squaremed.diabetesconnect.android</packagename>
+      <conponentname>com.squaremed.diabetesconnect.android.receiver.ConfigChangedReceiver</conponentname>
+      <action>android.intent.action.TIMEZONE_CHANGED</action>
+    </component>
+    <component>
+      <packagename>com.squaremed.diabetesconnect.android</packagename>
+      <conponentname>com.squaremed.diabetesconnect.android.services.NotificationAlarmSetter</conponentname>
+      <action>android.intent.action.BOOT_COMPLETED</action>
+    </component>
+  </doc>
+</root>

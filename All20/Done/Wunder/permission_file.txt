@@ -1,0 +1,1 @@
+{source: "com.wunderkinder.wunderlistandroid", target: "com.wunderkinder.wunderlistandroid", per: "1</br>WRITE_EXTERNAL_STORAGE</br>ACCESS_NETWORK_STATE</br>INTERNET</br>GET_ACCOUNTS</br>WAKE_LOCK</br>READ_CONTACTS</br>C2D_MESSAGE</br>VIBRATE</br>RECEIVE"},
